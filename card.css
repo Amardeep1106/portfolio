@@ -1,0 +1,359 @@
+.abt {
+    background-color: rgba(16, 133, 51, 0.1);
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.abt h2 {
+    color: rgba(142, 236, 48, 0.93);
+    text-align: center;
+}
+
+.abt h4 {
+    padding: 20px;
+    text-align: center;
+    color: burlywood;
+    font-size: 20px;
+}
+
+.abt p {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.mob_b p {
+    letter-spacing: 1px;
+
+}
+
+.abt h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+/* Base styles for desktop/laptop */
+.skill {
+    background-color: rgba(0, 255, 255, 0.1);
+    height: 100%;
+    text-align: center;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.skill h1 {
+    padding: 10px 0;
+}
+
+.skill h3 {
+    padding: 12px 0;
+    color: rgba(209, 209, 36, 0.888);
+}
+
+.skill p {
+    padding: 21px 0;
+    margin: 0 27px;
+    word-wrap: normal;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    font-family: math;
+    line-height: 24px;
+}
+
+.skill-head h2 {
+    color: rgba(209, 209, 36, 0.888);
+}
+
+.skill .skill-head {
+    display: flex;
+}
+
+.skill-headr {
+    padding-top: 30px;
+}
+
+.framwork {
+    padding: 80px 0;
+    display: flex;
+}
+
+.framwork .framwrk {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.framwork .boot {
+    color: rgba(209, 209, 36, 0.888);
+}
+
+
+
+/* skills */
+
+
+
+.skill {
+    background-color: rgba(0, 255, 255, 0.1);
+    text-align: center;
+    padding: 40px 70px;
+}
+
+.skill h1 {
+    padding: 10px 0;
+}
+
+.skill h3 {
+    padding: 12px 0;
+    color: rgba(209, 209, 36, 0.888);
+}
+
+.skill p {
+    padding: 21px 0;
+    margin: 0 27px;
+    word-wrap: normal;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    font-family: math;
+    line-height: 24px;
+}
+
+.skill-head h2 {
+    color: rgba(209, 209, 36, 0.888);
+}
+
+.skill .skill-head {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-headr {
+    padding-top: 30px;
+    flex: 1;
+    max-width: 400px;
+    /* Limit the width of the content on smaller screens */
+}
+
+.framwork {
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.framwork .framwrk {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.framwork .boot {
+    color: rgba(209, 209, 36, 0.888);
+}
+
+
+
+.project {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.933);
+    padding: 50px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.proj {
+    display: flex;
+    justify-content: space-between;
+    /* Spread project items horizontally */
+    padding: 40px 20px;
+    /* Add some horizontal spacing between project items */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next row on smaller screens */
+}
+
+.project-one,
+.project-two {
+    flex-basis: calc(50% - 40px);
+    /* Half the width minus spacing */
+    padding: 0 10px;
+    /* Add some horizontal spacing between project items */
+    text-align: center;
+}
+
+.project-one h1,
+.project-two h1 {
+    padding: 20px 10px;
+    margin: 0;
+}
+
+.project-one p,
+.project-two p {
+    padding: 5px 10px;
+    margin: 0;
+    word-wrap: normal;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    font-family: math;
+    line-height: 20px;
+}
+
+.proj a {
+    text-decoration: none;
+    color: rgba(141, 214, 57, 0.942);
+}
+
+
+
+
+
+
+/* contact */
+
+/* .contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgba(74, 207, 74, 0.515);
+    overflow: hidden;
+}
+
+.contact h1 {
+    padding: 20px 0;
+}
+
+.contact p {
+    padding: 5px 0;
+    margin: 0 27px;
+    word-wrap: normal;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    font-family: math;
+    line-height: 24px;
+}
+
+.contact div {
+    padding-right: 490px;
+}
+
+.cont li {
+    padding: 6px;
+    margin: 0 -10px;
+}
+
+.cont ul .mobl {
+    margin-left: -104px;
+}
+
+.cont ul .linked {
+    margin-left: 240px;
+    list-style: none;
+}
+
+.cont ul li a {
+    text-decoration: none;
+    color: #111313d3;
+    word-wrap: normal;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    font-family: math;
+    line-height: 24px;
+}
+
+.cont ul li {
+    word-wrap: normal;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    font-family: math;
+    line-height: 24px;
+} */
+
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgba(74, 207, 74, 0.515);
+    overflow: hidden;
+    align-items: center;
+}
+
+.contact h1 {
+    padding: 20px 0;
+}
+
+.contact p {
+    padding: 5px 0;
+    margin: 0 27px;
+    word-wrap: normal;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    font-family: math;
+    line-height: 24px;
+}
+
+.contact div {
+    padding-right: 490px;
+}
+
+/* 
+.cont .mobl {
+    margin-right: 60px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.cont .linked {
+    margin-left: 190px;
+list-style: none;
+}
+
+.cont ul li a {
+    text-decoration: none;
+    color: #111313d3;
+    word-wrap: normal;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    font-family: math;
+    line-height: 24px;
+}
+
+.cont ul li {
+    word-wrap: normal;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    font-family: math;
+    line-height: 24px;
+    align-items: center;
+}
+
+*/
+
+
+.cont {
+    font-size: 16px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(74, 207, 74, 0.515);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #14e954;
+}
+
+.cont .mobl {
+    padding-right: 80px;
+}
+
+.cont .linked {
+    margin-left: 38px;
+}

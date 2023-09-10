@@ -1,0 +1,116 @@
+@media(max-width: 768px) {
+
+    .vertical {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .med hr {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .vertical {
+        width: calc(50%);
+        text-align: center;
+        margin: 10px 40px;
+    }
+
+
+    .first-section {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+
+    }
+
+    .right-section img {
+        width: 150%;
+        border-radius: 50%;
+    }
+
+    .hrr hr {
+        margin: 0px 40px;
+    }
+
+    .abt {
+        padding: 10px 0;
+    }
+
+    .abt h4 {
+        font-size: 16px;
+    }
+
+    .abt p {
+        margin: 10px 20px;
+        padding: 10px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .skill {
+        padding: 20px 0;
+    }
+
+    .skill p {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .skill-head {
+        flex-direction: column;
+    }
+
+    .skill-headr {
+        padding-top: 20px;
+    }
+
+    .framwork {
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .framwork .framwrk {
+        padding: 20px 0;
+    }
+
+
+
+    .proj {
+        flex-direction: column;
+        /* Change to column layout for mobile devices */
+        align-items: center;
+        /* Center-align project items vertically */
+
+    }
+
+    .project-one,
+    .project-two {
+        flex-basis: 100%;
+        /* Full width for mobile devices */
+        padding: 20px 10px;
+        /* Adjust spacing for better readability */
+    }
+
+
+
+
+    .contact p {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+
+    .contact div {
+        padding-right: 0;
+    }
+
+    .cont {
+        font-size: 18px;
+    }
+}

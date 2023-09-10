@@ -1,0 +1,267 @@
+/* Reset default margin and padding */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgba(13, 3, 49, 0.979);
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(50, 47, 228, 0.836);
+    color: azure;
+    padding: 10px 20px;
+    height: 15vh;
+}
+
+.logo a {
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: burlywood;
+}
+
+.nav-link {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-link li {
+    margin: 0 26px;
+}
+
+.nav-link a {
+    /* color: rgba(182, 116, 17, 0.788);
+    text-decoration: none; */
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link li a:hover {
+    color: rgba(54, 235, 48, 0.925);
+    background-color: transparent;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+@media(max-width: 768px) {
+    .nav-link {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(31, 13, 53, 0.912);
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .nav-link li {
+        margin: 5px 0px;
+
+    }
+
+    .nav-link li a:hover {
+        color: rgba(233, 89, 23, 0.925);
+    }
+
+    .nav-link.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}
+
+/* nav bar end */
+
+
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 113px 0;
+    padding: 40px 0;
+
+}
+
+.first-section>div {
+    width: 30%;
+}
+
+.left-section {
+    font-size: 38px;
+    margin-top: 70px;
+}
+
+.right-section img {
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.purple {
+    color: rgba(124, 224, 42, 0.974);
+}
+
+#element {
+    color: rgba(146, 212, 102, 0.918);
+}
+
+.hrr hr {
+    color: rgba(228, 54, 54, 0.568);
+    background: rgb(199, 171, 171);
+    margin: 50px 60px;
+}
+
+.grey {
+    font-size: 20px;
+}
+
+.marg {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+/* Common styles for all elements */
+.secondsection {
+    width: 100%;
+    margin: 10px 0px;
+    height: auto;
+    /* justify-content: center; */
+}
+
+.box {
+    display: flex;
+    width: 100%;
+}
+
+.vertical {
+    width: calc(33.33% - 20px);
+    text-align: center;
+    margin: 10px 20px;
+    padding-bottom: 30px 0;
+}
+
+.vertical img {
+    width: 40px;
+    padding: 10px 0;
+}
+
+.vertical-title h3 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.vertical-desc p {
+    font-size: 19px;
+    padding: 20px 0;
+}
+
+.med hr {
+    margin: 10px 10px;
+    display: none;
+}
+
+
+
+
+
+footer {
+    background-color: rgba(216, 211, 231, 0.337);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 20px;
+    /* Adjust padding */
+}
+
+.footr ul {
+    list-style: none;
+    padding: 0;
+    /* Remove default padding */
+}
+
+.footr>div {
+    width: 100%;
+    max-width: 250px;
+    /* Adjust maximum width */
+    margin: 10px 0;
+    /* Add spacing between sections */
+}
+
+footer .footer-cont {
+    text-align: center;
+    padding: 10px 0;
+    /* Adjust padding */
+    font-size: 12px;
+    /* Reduce font size for small screens */
+}
+
+.footer-first h3 {
+    color: rgba(221, 241, 223, 0.575);
+    font-size: 18px;
+    /* Adjust font size */
+    margin: 10px 0;
+    /* Add spacing */
+}
+
+.footer-second ul li,
+.footer-third ul li,
+.footer-forth ul li {
+    margin: 9px 0;
+    /* Adjust spacing */
+}
+
+.footer-second ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 14px;
+    /* Adjust font size */
+}
+
+.footer-third img {
+    font-size: 24px;
+    margin: 0 5px;
+    /* Adjust margin */
+}
